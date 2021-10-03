@@ -154,3 +154,19 @@ body {
 	position: relative;
 	top: 1px;
 }
+
+.avatar {
+	/* Rounded border */
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;
+}
+
+.avatar__image {
+	/* Rounded border */
+	border-radius: 50%;
+
+	/* Take full size */
+	height: 100%;
+	width: 100%;
+}

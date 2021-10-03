@@ -1,0 +1,13 @@
+<figure class="highcharts-figure">
+	<div id="container"></div>
+	<p class="highcharts-description">Ayuntamiento de Jerez de la Frontera</p>
+	<p class="highcharts-description">Días PMP (Periodo Medio de Pago a proveedores).</p>
+</figure>
+
+<highcharts-chart
+	[Highcharts]="Highcharts"
+	[constructorType]="chartConstructor"
+	[(update)]="updateFlag"
+	[oneToOne]="oneToOneFlag"
+	style="width: 100%; height: 400px; display: block"
+></highcharts-chart>
