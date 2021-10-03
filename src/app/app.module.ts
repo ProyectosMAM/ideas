@@ -26,13 +26,13 @@ import { RatingComponent } from './pages/rating/rating.component';
 		RetrasometroComponent,
 		SimpleLineChartComponent,
 		GaugeComponent,
-  DualAxesComponent,
-  WizardComponent,
-  RatingComponent
+		DualAxesComponent,
+		WizardComponent,
+		RatingComponent
 		// Gauge1Component
 	],
 	imports: [BrowserModule, AppRoutingModule, HighchartsChartModule],
 	providers: [],
 	bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
