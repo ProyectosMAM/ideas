@@ -1,0 +1,7 @@
+<!-- {{countries | json}} -->
+
+<select [(ngModel)]="seletedCountry.id" (change)="onSelect($event.target)" style="width: 20px; background-color: red;">
+    <option *ngFor="let country of countries" value="{{country.id}}">
+        {{country.name}}
+    </option>
+</select>

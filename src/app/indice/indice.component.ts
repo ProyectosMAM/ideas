@@ -41,5 +41,9 @@ export class IndiceComponent {
 	Rating() {
 		void this.router?.navigate(['/Rating']);
 	}
+
+	Dropdown() {
+		void this.router?.navigate(['/Dropdown']);
+	}
 }
 

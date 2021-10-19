@@ -10,6 +10,7 @@ import { RetrasometroComponent } from './pages/retrasometro/retrasometro.compone
 import { SimpleLineChartComponent } from './pages/simple-line-chart/simple-line-chart.component';
 import { WizardComponent } from './pages/wizard/wizard.component';
 import { RatingComponent } from './pages/rating/rating.component';
+import { DropdownComponent } from './pages/dropdown/dropdown.component';
 
 const routes: Routes = [
 	{ path: 'home', component: IndiceComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
 	{ path: 'DualAxes', component: DualAxesComponent },
 	{ path: 'Wizard', component: WizardComponent },
 	{ path: 'Rating', component: RatingComponent },
+	{ path: 'Dropdown', component: DropdownComponent },
 
 	{ path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

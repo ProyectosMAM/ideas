@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,10 +15,14 @@ import { GaugeComponent } from './pages/gauge/gauge.component';
 import { DualAxesComponent } from './pages/dual-axes/dual-axes.component';
 import { WizardComponent } from './pages/wizard/wizard.component';
 import { RatingComponent } from './pages/rating/rating.component';
+import { DropdownComponent } from './pages/dropdown/dropdown.component';
+import { SpreadComponent } from './pages/spread/spread.component';
+
 // import { Gauge1Component } from './pages/gauge1/gauge1.component';
 
 @NgModule({
 	declarations: [
+
 		AppComponent,
 		HeaderComponent,
 		FooterComponent,
@@ -28,10 +33,12 @@ import { RatingComponent } from './pages/rating/rating.component';
 		GaugeComponent,
 		DualAxesComponent,
 		WizardComponent,
-		RatingComponent
+		RatingComponent,
+		DropdownComponent,
+  SpreadComponent
 		// Gauge1Component
 	],
-	imports: [BrowserModule, AppRoutingModule, HighchartsChartModule],
+	imports: [BrowserModule, FormsModule, AppRoutingModule, HighchartsChartModule],
 	providers: [],
 	bootstrap: [AppComponent]
 })
