@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndiceComponent } from './indice/indice.component';
 import { Grid1Component } from './pages/grid1/grid1.component';
-import { FooterComponent } from './shared/footer/footer.component';
-import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './layouts/footer/footer.component';
+import { HeaderComponent } from './layouts/header/navbar.component';
 import { RetrasometroComponent } from './pages/retrasometro/retrasometro.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { SimpleLineChartComponent } from './pages/simple-line-chart/simple-line-chart.component';
@@ -36,8 +36,8 @@ import { ObservableComponent } from './pages/observable/observable.component';
 		WizardComponent,
 		RatingComponent,
 		DropdownComponent,
-  SpreadComponent,
-  ObservableComponent
+		SpreadComponent,
+		ObservableComponent
 		// Gauge1Component
 	],
 	imports: [BrowserModule, FormsModule, AppRoutingModule, HighchartsChartModule],

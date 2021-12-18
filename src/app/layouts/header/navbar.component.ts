@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
 	selector: 'app-header',
-	templateUrl: './header.component.html',
-	styleUrls: ['./header.component.scss']
+	templateUrl: './navbar.component.html'
 })
 export class HeaderComponent {
-	constructor(public router: Router) {}
+	constructor(public router: Router) { }
 }
