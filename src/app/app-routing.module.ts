@@ -11,6 +11,7 @@ import { SimpleLineChartComponent } from './pages/simple-line-chart/simple-line-
 import { WizardComponent } from './pages/wizard/wizard.component';
 import { RatingComponent } from './pages/rating/rating.component';
 import { DropdownComponent } from './pages/dropdown/dropdown.component';
+import { ObservableComponent } from './pages/observable/observable.component';
 
 const routes: Routes = [
 	{ path: 'home', component: IndiceComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
 	{ path: 'Wizard', component: WizardComponent },
 	{ path: 'Rating', component: RatingComponent },
 	{ path: 'Dropdown', component: DropdownComponent },
+	{ path: 'Observable', component: ObservableComponent },
 
 	{ path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

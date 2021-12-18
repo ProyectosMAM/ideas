@@ -45,5 +45,9 @@ export class IndiceComponent {
 	Dropdown() {
 		void this.router?.navigate(['/Dropdown']);
 	}
+
+	Observable() {
+		void this.router?.navigate(['/Observable']);
+	}
 }
 

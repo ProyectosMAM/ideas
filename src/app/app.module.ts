@@ -17,6 +17,7 @@ import { WizardComponent } from './pages/wizard/wizard.component';
 import { RatingComponent } from './pages/rating/rating.component';
 import { DropdownComponent } from './pages/dropdown/dropdown.component';
 import { SpreadComponent } from './pages/spread/spread.component';
+import { ObservableComponent } from './pages/observable/observable.component';
 
 // import { Gauge1Component } from './pages/gauge1/gauge1.component';
 
@@ -35,7 +36,8 @@ import { SpreadComponent } from './pages/spread/spread.component';
 		WizardComponent,
 		RatingComponent,
 		DropdownComponent,
-  SpreadComponent
+  SpreadComponent,
+  ObservableComponent
 		// Gauge1Component
 	],
 	imports: [BrowserModule, FormsModule, AppRoutingModule, HighchartsChartModule],
